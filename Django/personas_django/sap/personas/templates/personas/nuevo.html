@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva persona</title>
+</head>
+<body>
+<h1>Agregar Persona</h1>
+<form method="POST">
+    <table>
+        <th><label for="id_nombre">Nombre:</label></th>
+        {{formaPersona}}
+    </table>
+    <button type="submit">Enviar</button>
+    {% csrf_token %}
+</form>
+</body>
+</html>
+</html>
